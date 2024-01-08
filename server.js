@@ -8,7 +8,7 @@ const cors = require("cors");
 const app = express()
 
 var corsOptions = {
-    origin: "https://spontaneous-jelly-8df566.netlify.app" //will need to be changed for netlify deploy
+    origin: "https://teal-jelly-1e6c1f.netlify.app/" //will need to be changed for netlify deploy
 };
 
 app.use(cors(corsOptions));
